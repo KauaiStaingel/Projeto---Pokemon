@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <title>Pokemon</title>
+</head>
+<body class="contatos">   
+    <header>
+        <img class="banner" src="imagens/banner1.jpg" alt="Banner Do Site">
+        <div class="header">
+            <h1><img class="logo" src="imagens/pokeicon.png" alt="logo"></h1>
+            <h1 class="titulo">Pokemon</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pokedex.html">Pokedex</a>
+            <a href="contato.html">Contato</a>
+        </nav>  
+    </header>
+
+    <main>
+        <form class="formulario" >
+            <h1>Contate-nos</h1>
+
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="exemplo@exemplo.com">
+
+            <label for="telefone">Telefone:</label>
+            <input type="number" name="telefone" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="60" rows="10"></textarea required>
+
+            <fieldset>
+                    <legend>Preferencia de Contato</legend>
+                    <label for="radcont"><input type="radio" name="radcont" id="numero" checked>Telefone</label>
+
+                    <label for="radcont"><input type="radio" name="radcont" id="email">Email</label>
+
+                    <label for="radcont"><input type="radio" name="radcont" id="whatsapp">WhatsApp</label>
+            </fieldset>
+
+            <label class="check" for="check">Gostaria de Receber Atualizacoes sobre nosso site?</label>
+            <input class="check" type="checkbox" name="check" id="check">
+
+            <input type="submit" value="Enviar" class="enviar">
+
+
+        </form>
+    </main>
+
+
+
+
+
+
+    <footer>
+    
+        <h1><img class="logo1" src="imagens/pokeicon.png" alt="logo"></h1>
+        <h3>Desenvolvido Por Kauai Staingel</h3>
+        <p>todo uso de imagem e nome foram meramente para uso estudantil, sem nenhum interesse monetario</p>
+    </footer>
+</body>
+</html>

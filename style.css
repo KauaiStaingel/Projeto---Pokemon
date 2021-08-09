@@ -1,0 +1,433 @@
+
+:root{
+    --cor0: #2B2A2A;
+    --cor1: #ff3700;
+    --cor2:#ffd505;
+    --cor3:#3837FF;
+    --font-titulo: 'Londrina Solid', cursive;
+}
+/*font-family: 'Londrina Solid', cursive;*/
+
+
+
+
+
+/* Header */
+
+header{
+    background-color:#2B2A2A;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+.banner{
+    width: 100%;
+}
+.header{
+    max-width: 940px;
+    min-width: 320px;
+    margin: auto;
+}
+h1 img {
+    width: 10% ;
+}
+
+.titulo{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 120px;
+    text-align: center;
+    color:var(--cor2);
+    text-shadow: 1px 1px 20px var(--cor3);
+    
+}
+.logo{
+    margin-left: 170px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: -100px;
+    min-width: 5%;
+}
+nav{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Londrina Solid', cursive;
+    padding: 7px;
+  
+}
+a:hover{
+    background-color: var(--cor2);
+    color: var(--cor3);
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+
+
+/* Main*/
+
+body{
+    background-color: var(--cor0);
+}
+
+.main-principal
+{
+    background-color: white;
+    max-width: 940px;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 10px var(--cor2);
+    
+}
+
+strong{
+    font-weight: bolder;
+}
+
+.conteudo-principal h2{
+    font-family: 'Londrina Solid', cursive;
+    color: var(--cor3);
+    font-size: 70px;
+    margin: 20px;
+    clear: right;
+}   
+
+.conteudo-principal p {
+    padding: 5px;
+    text-indent: 40px;
+    text-align: justify;
+    font-size: 20px;
+    
+
+}
+.img-texto{
+    float: right;
+    max-width: 30%;
+    min-width: 20%;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+
+/*Footer*/
+
+footer{
+    background:linear-gradient(#2B2A2A, #3837FF);
+    width: 100%;
+    text-align: center;
+    color: white;
+
+}
+.logo1{
+    
+    display: block;
+    min-width: 5%;
+    max-width: 10%;
+    margin: 20px auto 10px auto;
+}
+footer h3{
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 10px;
+    
+}
+footer p {
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+
+
+/*POKEDEX*/
+.main-pokedex{
+    background-color: white;
+}
+.lista-pokemon{
+    width: 1280px;
+    padding: 5px;
+    margin: auto;
+}
+li{
+    display: inline-block;
+    width: 30%;
+    background-color:var(--cor0);
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+.pokedex-titulo{
+    font-family: 'Londrina Solid', cursive;
+    font-size: 40px;
+    color: var(--cor2);
+    padding: 5px;
+    
+
+}
+li > p {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+li:hover{
+    transform: scale(1.2);
+    transition: 200ms;
+}
+
+
+.pikachu{
+    width: 49%;
+    
+}
+.caterpie{
+    width: 56%;
+    
+}
+.charmander{
+    width: 77.5%;
+    
+}
+.cyndaquil{
+    width: 60%;
+    
+}
+.eevee{
+    width: 48.6%;
+    
+}
+.gengar{
+    width: 53%;
+    
+}
+.jig{
+    width: 80%;
+    
+}
+.snorlax{
+    width: 59%;
+    
+}
+.squirtle{
+    width: 78.3%;
+    
+}
+.totodile{
+    width: 50%;
+}
+.turtwig{
+    width: 45%;
+}
+.bulba{
+    width: 65%;
+}
+
+
+
+
+.eletrico{
+    background-color: var(--cor2);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.inseto{
+    background-color: chartreuse;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.fogo{
+    background-color: rgb(255, 8, 8);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.normal{
+    background-color: lightgrey;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.fantasma{
+    background-color: purple;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.veneno{
+    background-color: rgba(211, 23, 211, 0.788);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.fada{
+    background-color: rgb(238, 144, 238);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.agua{
+    background-color: rgb(132, 209, 253);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+.grama{
+    background-color: greenyellow;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+
+
+/*FORMULARIO*/
+
+.contatos{
+    background-color: var(--cor2);
+}
+
+form{
+    background-color: white;
+    max-width: 940px;
+    min-width: 320px;
+    margin: auto;
+    padding: 5px;
+}
+form > h1{
+    font-family: 'Londrina Solid', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: var(--cor3);
+    margin: 10px auto 30px auto;
+}
+form > label{
+    display: block;
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+form  input{
+    padding: 10px 190px 10px 5px;
+    border-radius: 0 10px 10px 0;
+    border-color: rgb(84, 99, 235);
+}
+textarea{
+    border-radius: 0 10px 10px 0;
+    border-color: rgb(84, 99, 235);
+}
+fieldset{
+    padding: 10px;
+    margin-top: 10px;
+}
+legend{
+    display: block;
+    margin: 20px 10px 10px 0px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+fieldset label{
+    display: block;
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+.check{
+    display: inline-block;
+    padding: 3px;
+}
+.enviar{
+    margin: 10px auto;
+    display: block;
+    width:40%;
+	padding: 15px 0;
+	background: var(--cor3);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.enviar:hover{
+    transform: scale(1.2);
+    transition: 200ms;
+}
+
+
+/*RESPONSIVIDADE*/
+
+
+@media screen and (max-width:1310px){
+    .lista-pokemon{
+        width: 940px;
+        margin: auto;
+    }
+}
+@media screen and (max-width:970px){
+    .lista-pokemon{
+        width: 100%;
+        
+        margin: auto;
+    }
+    li > p{
+        font-size: 0.9em;
+    }
+@media screen and (max-width:960px){
+    .logo{
+        display: block;
+        margin: auto;
+    }
+}
+@media screen and (max-width:730px) {
+    li {
+        width: 40%;
+        transform: scale(0.9);
+        margin-left: 10px;
+    }
+    li > p{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:480px){
+    .logo{
+        display: block;
+        margin: auto;
+    }
+    .titulo{
+        font-size: 40px;
+    }
+    nav a{
+        
+        margin: 13px;
+    }
+    main{
+        box-shadow: none;
+    }
+    .lista-pokemon{
+        width: 100%;
+        margin: auto;
+    }
+    li{
+        display: block;
+        width: 90%;
+        margin: auto;
+        
+    }
+   
+}    
+   
+}
+
+
