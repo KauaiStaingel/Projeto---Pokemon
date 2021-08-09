@@ -318,11 +318,13 @@ form > label{
     font-size: 1.5em;
 }
 form  input{
-    padding: 10px 190px 10px 5px;
+	width; 40%;
+    padding: 10px;
     border-radius: 0 10px 10px 0;
     border-color: rgb(84, 99, 235);
 }
 textarea{
+	width: 40%;
     border-radius: 0 10px 10px 0;
     border-color: rgb(84, 99, 235);
 }
